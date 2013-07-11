@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D29F77C178EA2F9006452BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29F77B178EA2F9006452BB /* UIKit.framework */; };
+		3D29F77E178EA2F9006452BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29F77D178EA2F9006452BB /* Foundation.framework */; };
+		3D29F780178EA2F9006452BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29F77F178EA2F9006452BB /* CoreGraphics.framework */; };
+		3D29F786178EA2F9006452BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D29F784178EA2F9006452BB /* InfoPlist.strings */; };
+		3D29F788178EA2F9006452BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29F787178EA2F9006452BB /* main.m */; };
+		3D29F78C178EA2F9006452BB /* XQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29F78B178EA2F9006452BB /* XQAppDelegate.m */; };
+		3D29F78E178EA2F9006452BB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D29F78D178EA2F9006452BB /* Default.png */; };
+		3D29F790178EA2F9006452BB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D29F78F178EA2F9006452BB /* Default@2x.png */; };
+		3D29F792178EA2F9006452BB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D29F791178EA2F9006452BB /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D29F778178EA2F9006452BB /* XQSideBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XQSideBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D29F77B178EA2F9006452BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D29F77D178EA2F9006452BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D29F77F178EA2F9006452BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D29F783178EA2F9006452BB /* XQSideBarDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XQSideBarDemo-Info.plist"; sourceTree = "<group>"; };
+		3D29F785178EA2F9006452BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D29F787178EA2F9006452BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D29F789178EA2F9006452BB /* XQSideBarDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XQSideBarDemo-Prefix.pch"; sourceTree = "<group>"; };
+		3D29F78A178EA2F9006452BB /* XQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQAppDelegate.h; sourceTree = "<group>"; };
+		3D29F78B178EA2F9006452BB /* XQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQAppDelegate.m; sourceTree = "<group>"; };
+		3D29F78D178EA2F9006452BB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3D29F78F178EA2F9006452BB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3D29F791178EA2F9006452BB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D29F775178EA2F9006452BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D29F77C178EA2F9006452BB /* UIKit.framework in Frameworks */,
+				3D29F77E178EA2F9006452BB /* Foundation.framework in Frameworks */,
+				3D29F780178EA2F9006452BB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D29F76F178EA2F9006452BB = {
+			isa = PBXGroup;
+			children = (
+				3D29F781178EA2F9006452BB /* XQSideBarDemo */,
+				3D29F77A178EA2F9006452BB /* Frameworks */,
+				3D29F779178EA2F9006452BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D29F779178EA2F9006452BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D29F778178EA2F9006452BB /* XQSideBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D29F77A178EA2F9006452BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D29F77B178EA2F9006452BB /* UIKit.framework */,
+				3D29F77D178EA2F9006452BB /* Foundation.framework */,
+				3D29F77F178EA2F9006452BB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D29F781178EA2F9006452BB /* XQSideBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D29F78A178EA2F9006452BB /* XQAppDelegate.h */,
+				3D29F78B178EA2F9006452BB /* XQAppDelegate.m */,
+				3D29F782178EA2F9006452BB /* Supporting Files */,
+			);
+			path = XQSideBarDemo;
+			sourceTree = "<group>";
+		};
+		3D29F782178EA2F9006452BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D29F783178EA2F9006452BB /* XQSideBarDemo-Info.plist */,
+				3D29F784178EA2F9006452BB /* InfoPlist.strings */,
+				3D29F787178EA2F9006452BB /* main.m */,
+				3D29F789178EA2F9006452BB /* XQSideBarDemo-Prefix.pch */,
+				3D29F78D178EA2F9006452BB /* Default.png */,
+				3D29F78F178EA2F9006452BB /* Default@2x.png */,
+				3D29F791178EA2F9006452BB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D29F777178EA2F9006452BB /* XQSideBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D29F795178EA2F9006452BB /* Build configuration list for PBXNativeTarget "XQSideBarDemo" */;
+			buildPhases = (
+				3D29F774178EA2F9006452BB /* Sources */,
+				3D29F775178EA2F9006452BB /* Frameworks */,
+				3D29F776178EA2F9006452BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XQSideBarDemo;
+			productName = XQSideBarDemo;
+			productReference = 3D29F778178EA2F9006452BB /* XQSideBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D29F770178EA2F9006452BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XQ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = HySoft;
+			};
+			buildConfigurationList = 3D29F773178EA2F9006452BB /* Build configuration list for PBXProject "XQSideBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D29F76F178EA2F9006452BB;
+			productRefGroup = 3D29F779178EA2F9006452BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D29F777178EA2F9006452BB /* XQSideBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D29F776178EA2F9006452BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D29F786178EA2F9006452BB /* InfoPlist.strings in Resources */,
+				3D29F78E178EA2F9006452BB /* Default.png in Resources */,
+				3D29F790178EA2F9006452BB /* Default@2x.png in Resources */,
+				3D29F792178EA2F9006452BB /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D29F774178EA2F9006452BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D29F788178EA2F9006452BB /* main.m in Sources */,
+				3D29F78C178EA2F9006452BB /* XQAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D29F784178EA2F9006452BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D29F785178EA2F9006452BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D29F793178EA2F9006452BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D29F794178EA2F9006452BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D29F796178EA2F9006452BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XQSideBarDemo/XQSideBarDemo-Prefix.pch";
+				INFOPLIST_FILE = "XQSideBarDemo/XQSideBarDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D29F797178EA2F9006452BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XQSideBarDemo/XQSideBarDemo-Prefix.pch";
+				INFOPLIST_FILE = "XQSideBarDemo/XQSideBarDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D29F773178EA2F9006452BB /* Build configuration list for PBXProject "XQSideBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D29F793178EA2F9006452BB /* Debug */,
+				3D29F794178EA2F9006452BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D29F795178EA2F9006452BB /* Build configuration list for PBXNativeTarget "XQSideBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D29F796178EA2F9006452BB /* Debug */,
+				3D29F797178EA2F9006452BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D29F770178EA2F9006452BB /* Project object */;
+}
