@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XQSidebarViewController.h"
 
 @interface XQAppDelegate : UIResponder <UIApplicationDelegate>
 

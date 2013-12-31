@@ -16,6 +16,10 @@
 		3D29F78E178EA2F9006452BB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D29F78D178EA2F9006452BB /* Default.png */; };
 		3D29F790178EA2F9006452BB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D29F78F178EA2F9006452BB /* Default@2x.png */; };
 		3D29F792178EA2F9006452BB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D29F791178EA2F9006452BB /* Default-568h@2x.png */; };
+		3D29F79C178EA8D6006452BB /* XQSidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29F79B178EA8D6006452BB /* XQSidebarViewController.m */; };
+		3D29F79E178EA96B006452BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29F79D178EA96B006452BB /* QuartzCore.framework */; };
+		3D29F7A1178EA9AE006452BB /* XQLeftSideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29F7A0178EA9AE006452BB /* XQLeftSideBarViewController.m */; };
+		3D29F7A4178EA9BD006452BB /* XQFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29F7A3178EA9BD006452BB /* XQFirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,14 @@
 		3D29F78D178EA2F9006452BB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3D29F78F178EA2F9006452BB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3D29F791178EA2F9006452BB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3D29F799178EA352006452BB /* XQSideBarSelectedDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQSideBarSelectedDelegate.h; sourceTree = "<group>"; };
+		3D29F79A178EA8D6006452BB /* XQSidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQSidebarViewController.h; sourceTree = "<group>"; };
+		3D29F79B178EA8D6006452BB /* XQSidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQSidebarViewController.m; sourceTree = "<group>"; };
+		3D29F79D178EA96B006452BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3D29F79F178EA9AE006452BB /* XQLeftSideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQLeftSideBarViewController.h; sourceTree = "<group>"; };
+		3D29F7A0178EA9AE006452BB /* XQLeftSideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQLeftSideBarViewController.m; sourceTree = "<group>"; };
+		3D29F7A2178EA9BD006452BB /* XQFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQFirstViewController.h; sourceTree = "<group>"; };
+		3D29F7A3178EA9BD006452BB /* XQFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQFirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D29F79E178EA96B006452BB /* QuartzCore.framework in Frameworks */,
 				3D29F77C178EA2F9006452BB /* UIKit.framework in Frameworks */,
 				3D29F77E178EA2F9006452BB /* Foundation.framework in Frameworks */,
 				3D29F780178EA2F9006452BB /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +81,7 @@
 		3D29F77A178EA2F9006452BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D29F79D178EA96B006452BB /* QuartzCore.framework */,
 				3D29F77B178EA2F9006452BB /* UIKit.framework */,
 				3D29F77D178EA2F9006452BB /* Foundation.framework */,
 				3D29F77F178EA2F9006452BB /* CoreGraphics.framework */,
@@ -78,9 +92,14 @@
 		3D29F781178EA2F9006452BB /* XQSideBarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3D29F798178EA30A006452BB /* SideBar */,
 				3D29F78A178EA2F9006452BB /* XQAppDelegate.h */,
 				3D29F78B178EA2F9006452BB /* XQAppDelegate.m */,
 				3D29F782178EA2F9006452BB /* Supporting Files */,
+				3D29F79F178EA9AE006452BB /* XQLeftSideBarViewController.h */,
+				3D29F7A0178EA9AE006452BB /* XQLeftSideBarViewController.m */,
+				3D29F7A2178EA9BD006452BB /* XQFirstViewController.h */,
+				3D29F7A3178EA9BD006452BB /* XQFirstViewController.m */,
 			);
 			path = XQSideBarDemo;
 			sourceTree = "<group>";
@@ -97,6 +116,16 @@
 				3D29F791178EA2F9006452BB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D29F798178EA30A006452BB /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+				3D29F799178EA352006452BB /* XQSideBarSelectedDelegate.h */,
+				3D29F79A178EA8D6006452BB /* XQSidebarViewController.h */,
+				3D29F79B178EA8D6006452BB /* XQSidebarViewController.m */,
+			);
+			name = SideBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +196,9 @@
 			files = (
 				3D29F788178EA2F9006452BB /* main.m in Sources */,
 				3D29F78C178EA2F9006452BB /* XQAppDelegate.m in Sources */,
+				3D29F79C178EA8D6006452BB /* XQSidebarViewController.m in Sources */,
+				3D29F7A1178EA9AE006452BB /* XQLeftSideBarViewController.m in Sources */,
+				3D29F7A4178EA9BD006452BB /* XQFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
